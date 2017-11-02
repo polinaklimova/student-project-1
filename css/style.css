@@ -4,7 +4,19 @@ body {
 	color:#333333
 }
 
-
+h1, h2, ul, li, div {
+	margin: 0px;
+	padding: 0px;
+}
+#name {
+	float: left;
+	height:100%;
+}
+#panel {
+    float:left;
+    padding-left: 10px;
+    padding-top:20px;
+}
 
 #nav {
 	background: #FCF7F8;
@@ -13,11 +25,10 @@ body {
 	font-size: 20px;
 	text-align: left;
 	margin-left: 25%;
-
+	height:120px;
 }
 #nav ul{
 	list-style: none;
-
 }
 #nav li{
 	margin-bottom: 0px;
@@ -36,102 +47,80 @@ body {
 
 #nav a:hover{        /*наведение курсора на ссылку*/
 	color:rgba(97, 208, 212, 1);
-
 }
-
 
 #main {
 	background: #FCF7F8;
 	width: 100%;
+	min-width:1000px;
 	height: 100%;
 	float: left;
+	padding: 0 5% 0 5%;
 }
 
-#imgBox {
-	width: 100%;
-	float: left;
-	margin-left: 15%;
-	margin-top: 5%;
+#left {
+	float:left;
+	width:45%;
+}
 
-
+#right {
+	float:left;
+	width:45%;
 }
 
 #image {
 	border-radius: 50%;
-	background: url(images/me_1.jpg);
-	width: 370px;
-	height: 370px;
-	float: left;
-}
-
-#circuls {
-	width: 50%;
-	margin-top: 5%;
-
+	background: url(../images/me_1.jpg);
+	width: 320px;
+	height: 320px;
+	float: right;
+	margin-right:20%;
 }
 
 #circuls ul{
 	list-style: none;
+	width: 100%;
 }
+
 #circuls li{
 	display: inline;
 	margin-bottom: 0px;
 	float: left;
-	text-align: left;
+	text-align: center;
+	line-height: 130px;
+	border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 0 10px;
 
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #c_1 {
-	border-radius: 50%;
     background: #73a6ad;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    margin-right: 20px
 }
 #c_1:hover {
-	border-radius: 50%;
-    background: #4a787e;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    margin-right: 20px
-}
+   background: #4a787e;
+ }
 #c_2 {
-	border-radius: 50%;
-    background: #00779b;
-    width: 150px;
-    height: 150px;
-    margin-right: 20px
+   background: #00779b;
 }
 #c_2:hover {
-	border-radius: 50%;
     background: #00526b;
-    width: 150px;
-    height: 150px;
-
 }
-
 #c_3 {
-	border-radius: 50%;
     background: #DE6B48;
-    width: 150px;
-    height: 150px;
-    margin-right: 20px
 }
 #c_3:hover{
-	border-radius: 50%;
     background: #96381c;
-    width: 150px;
-    height: 150px;
 }
 
-#footer {
-	background: #90C2E7;
-	width: 100%;
-	height: 100px;
-	float: left;
-	margin-top: 200px;
-
-
+#text {
+	width:450px;
+	text-align: justify;
+	padding-top: 20px;
 }
