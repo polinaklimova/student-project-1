@@ -1,73 +1,137 @@
 body {
-	background: #ffffff;
+	background: #FCF7F8;
 	font-family: "Calibri", sans-serif;
-	color:#ff0000;
-	font-size: 20px;
-}
-#wrapper {
-	width: 1000px;
-	margin: 0 auto;
-
-	margin-left: auto;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
+	color:#333333
 }
 
-#header {
-	background: #585858;
-	width: 100%;
-	height: 100px;
-	color: #585858;
-	text-align: center;
-	padding-top: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px; 
-	/*пустое пространство между блоками */
-	/*border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 20px; */
-
-	border-radius: 10px 10px 0 0;
-	text-shadow: #000000 10px 10px 30px;  /*cool text shadow css effect -  загуглить useragentman.com*/
-
-}
-
-#logo {
-	width: 100%
-	height: 100px;
-	color: #404040;
-	text-shadow: 0px 1px 1px #666666;
-	font: 40px "Arial";
-	text-align: center;
-	padding-top: 25px;
-
-
-}
 
 
 #nav {
-	background: #cccccc;
-	width: 150px;
-	height: 600px;
+	background: #FCF7F8;
+	width: 100%;
 	float: left;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 25%;
 
 }
+#nav ul{
+	list-style: none;
+
+}
+#nav li{
+	margin-bottom: 0px;
+	margin-right: 20px;
+	display: inline;
+}
+
+#nav a:link{
+	text-decoration: none;   /*подчерк в ссылках*/
+	color:#333333;
+}
+
+#nav a:visited{
+	color:#000111;
+}
+
+#nav a:hover{        /*наведение курсора на ссылку*/
+	color:rgba(97, 208, 212, 1);
+
+}
+
 
 #main {
-	background: #aaaaaa;
-	width: 850px;
-	height: 600px;
+	background: #FCF7F8;
+	width: 100%;
+	height: 100%;
 	float: left;
 }
 
+#imgBox {
+	width: 100%;
+	float: left;
+	margin-left: 15%;
+	margin-top: 5%;
+
+
+}
+
+#image {
+	border-radius: 50%;
+	background: url(images/me_1.jpg);
+	width: 370px;
+	height: 370px;
+	float: left;
+}
+
+#circuls {
+	width: 50%;
+	margin-top: 5%;
+
+}
+
+#circuls ul{
+	list-style: none;
+}
+#circuls li{
+	display: inline;
+	margin-bottom: 0px;
+	float: left;
+	text-align: left;
+
+}
+
+#c_1 {
+	border-radius: 50%;
+    background: #73a6ad;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+#c_1:hover {
+	border-radius: 50%;
+    background: #4a787e;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+#c_2 {
+	border-radius: 50%;
+    background: #00779b;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px
+}
+#c_2:hover {
+	border-radius: 50%;
+    background: #00526b;
+    width: 150px;
+    height: 150px;
+
+}
+
+#c_3 {
+	border-radius: 50%;
+    background: #DE6B48;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px
+}
+#c_3:hover{
+	border-radius: 50%;
+    background: #96381c;
+    width: 150px;
+    height: 150px;
+}
 
 #footer {
-	background: #999999;
-	width: 1000px;
+	background: #90C2E7;
+	width: 100%;
 	height: 100px;
 	float: left;
+	margin-top: 200px;
 
 
 }
