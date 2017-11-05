@@ -1,0 +1,67 @@
+
+
+#left {
+	float:left;
+	width:45%;
+}
+
+#right {
+	float:left;
+	width:45%;
+}
+
+#image {
+	border-radius: 50%;
+	background: url(../images/me_1.jpg);
+	width: 320px;
+	height: 320px;
+	float: right;
+	margin-right:20%;
+}
+
+#circles ul{
+	list-style: none;
+	width: 100%;
+}
+
+#circles li{
+	display: inline;
+	margin-bottom: 0px;
+	float: left;
+	text-align: center;
+	line-height: 115px;
+	border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    margin: 0 10px;
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#c_1 {
+    background: #73a6ad;
+}
+#c_1:hover {
+   background: #4a787e;
+ }
+#c_2 {
+   background: #00779b;
+}
+#c_2:hover {
+    background: #00526b;
+}
+#c_3 {
+    background: #DE6B48;
+}
+#c_3:hover{
+    background: #96381c;
+}
+
+#text {
+	text-align: justify;
+	padding-top: 20px;
+}
