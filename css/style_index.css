@@ -1,78 +1,4 @@
-h1, h2, ul, li, div {
-	margin: 0px;
-	padding: 0px;
-}
-body {
-	background: #FCF7F8;
-	font-family: "Calibri", sans-serif;
-	color:#333333;
-	min-width: 1000px;
-	margin: 0;
 
-}
-#wrapper {
-	height: 100%;
-	padding: 0 0 0 0;
-}
-#name {
-	float: left;
-	margin-left: 17%;
-}
-#name a:link{
-	text-decoration: none;
-	color:#333333;
-	
-}
-#name a:hover{
-	text-decoration: none;
-	color:#333333;
-	
-}
-#panel {
-    float:left;
-    padding-left: 30px;
-    padding-top:20px;
-}
-
-#nav {
-	background: #FCF7F8;
-	width: 100%;
-	float: left;
-	font-size: 20px;
-	text-align: left;
-    height:120px;
-	margin-top:50px;
-}
-#nav ul{
-	list-style: none;
-}
-#nav li{
-	margin-bottom: 0px;
-	margin-right: 20px;
-	display: inline;
-}
-
-#nav a:link{
-	text-decoration: none;   /*подчерк в ссылках*/
-	color:#333333;
-}
-
-#nav a:visited{
-	color:#000111;
-}
-
-#nav a:hover{        /*наведение курсора на ссылку*/
-	color:#73a6ad;
-}
-
-#main {
-	background: #FCF7F8;
-	width: 90%;
-	
-	// height: 100%;
-	float: left;
-	margin: 0 5% 0 5%;
-}
 
 #left {
 	float:left;
@@ -109,6 +35,13 @@ body {
     height: 115px;
     margin: 0 10px;
 
+}
+#circles a:link{
+	text-decoration: none;
+	color:#333333;
+}
+#circles a:visited{
+	color:#333333;
 }
 .clearfix:after {
     content: "";
